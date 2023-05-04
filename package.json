@@ -1,0 +1,22 @@
+{
+    "name": "youtube_video",
+    "version": "1.0.0",
+    "description": "유튜브 비디오 id를 받아 비디오 정보를 반환한다",
+    "main": "/src/app.ts",
+    "author": "shaan",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "start": "node ./bin/app.js",
+        "dev": "ts-node ./src/app.ts"
+    },
+    "dependencies": {
+        "@types/node": "^18.16.3",
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "typescript": "^5.0.4"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}
